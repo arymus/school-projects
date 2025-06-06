@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <title>Concord Web Dev 10/15</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Concord Web Dev Form 10/15</h1>
+        </header>
+        <main>
+            <h3>Contact Info:</h3>
+            <label for="emails">Email:</label>
+            <br />
+            <input type="text" list="emails" placeholder="Email" required aria-required="true"/>
+            <datalist id="emails">
+                <option value="@gmail.com" />
+                <option value="@yahoo.com" />
+                <option value="@hotmail.com" />
+                <option value="@microsoft.com" />
+                <option value="@aol.com" />
+                <option value="@outlook.com" />
+            </datalist>
+            <br />
+            <label for="pwd">Password:</label>
+            <br />
+            <input type="password" id="pwd" placeholder="Password" required aria-required="true" />
+            <br />
+            <label for="phonenumber">Phone number:</label>
+            <br />
+            <input type="number" id="phonenumber" placeholder="Phone number" />
+            <br />
+            <label for="serviceScale">Rate your service from 1-5:</label>
+            <br />
+            <input type="range" id="serviceScale" min="0" max="5" required aria-required="true" />
+            <br />
+            <h3>What would you like to see improved on our website?</h3>
+            <label for="suggestion1">Better customer service</label>
+            <input type="checkbox" id="suggestion1" />
+            <br />
+            <label for="suggestion2">Easier experience</label>
+            <input type="checkbox" id="suggestion2" />
+            <br />
+            <label for="suggestion3">Sleeker design</label>
+            <input type="checkbox" id="suggestion3" />
+            <br />
+            <h3>What's your favorite greeting?</h3>
+            <label for="hi">Hi</label>
+            <input type="radio" id="hi" name="radio" />
+            <br />
+            <label for="hello">Hello</label>
+            <input type="radio" id="hello" name="radio" />
+            <br />
+            <br />
+            <input type="submit" id="submit" />
+        </main>
+    </body>
+</html>

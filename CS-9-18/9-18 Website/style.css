@@ -1,0 +1,43 @@
+body {
+    background-color: wheat;
+    color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 50px;
+}
+
+.image {
+    flex-direction: row;
+    margin: 20px;
+    text-align: center;p
+}
+
+a:link {
+    color: darkgray;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: gray;
+}
+
+#video {
+    margin: auto;
+    display: flex;
+    border-color: darkgray;
+    border-radius: 50px;
+}
+
+.link {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}

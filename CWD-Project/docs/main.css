@@ -1,0 +1,16 @@
+h1, h3 {
+    color: #af75d9;
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12vw;
+    margin-top:0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 2rem;
+}

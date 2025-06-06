@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #af75d9;
+    color: #ffffff;
+    top: 0;
+    left: 0;
+    position: sticky;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 10px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    a, p {
+        margin: 10px;
+    }
+    #navname {
+        color: #ffffff;
+    }
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    color: #808080;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+}

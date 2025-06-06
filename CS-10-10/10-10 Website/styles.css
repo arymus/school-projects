@@ -1,0 +1,45 @@
+table, th, tr, td{
+    border: 2px solid palevioletred;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.orderedList {
+    background-color: purple;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 16px;
+    text-align: center;
+    padding: 5px;
+}
+
+#headerTitle {
+    color: mediumvioletred;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.images {
+    text-align: center;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 16px;
+}
+
+img {
+    border: 2px solid darkblue;
+    border-radius: 16px;
+}
+
+.table {
+    background-color: pink;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+sub {
+    text-align: center;
+}

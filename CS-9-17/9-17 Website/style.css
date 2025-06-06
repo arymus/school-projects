@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(57, 57, 57);
+}
+
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+a:link, a:visited {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

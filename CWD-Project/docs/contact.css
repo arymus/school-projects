@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    color: #af75d9;
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #af75d9;
+    border: 2px solid #af75d9;
+    border-radius: 16px;
+    padding: 10px;
+    label {
+        color: #ffffff;
+        font-family: "Rajdhani", sans-serif;
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+
+    input, button {
+        border: 2px solid #af75d9;
+        border-radius: 16px;
+    }
+
+    input[type=text] {
+        font-family: "Rajdhani", sans-serif;
+    }
+
+    button {
+        padding: 5px;
+        margin: 10px;
+        background-color: #ffffff;
+        color: #af75d9;
+    }
+
+    button:active {
+        background-color: #808080;
+        color: #ffffff;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.email {
+    color: #ffffff;
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
